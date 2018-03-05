@@ -40,7 +40,7 @@ public class WalkingFrame extends JFrame implements ActionListener {
 				if (e.getKeyCode() == e.VK_B)
 				{
 				
-				add(new MovingBall(0, 0));
+				add(new MovingBall(man.getX(), man.getY()));
 				}
 
 
